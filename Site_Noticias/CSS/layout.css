@@ -1,33 +1,33 @@
-#conteudo{
-    background: #f5f5f5;
-    margin-top: 60px;
+#conteudo {
+	margin-top: 60px;
+	background: #f5f5f5;
 }
 
 #lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
 }
 
 #primario {
-    width: 270px;
-    float: left;
-    margin:  0 0 20px 195px;
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px ;
 }
 
 #duas-colunas #primario {
-    width: 555px;
+	width: 555px;
 }
 
 #uma-coluna #primario {
-    width: 750px;
-    margin-bottom: 20px;
+	width: 750px;
+	margin: 0 0 20px 0;
 }
 
 #secundario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
 }
 
 #container-rodape{
