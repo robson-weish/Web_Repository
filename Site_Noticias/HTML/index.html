@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../CSS/navegacao.css">
     <link rel="stylesheet" href="../CSS/layout.css">
     <link rel="stylesheet" href="../CSS/lateral.css">
+    <link rel="stylesheet" href="../CSS/menu_lateral.css">
+    <link rel="stylesheet" href="../CSS/conteudo.css">
     <title>Site de Noticias</title>
 </head>
 <body id="tres-colunas" class="home">
@@ -40,14 +42,65 @@
         </div>
         <!--Conteúdo-->
         <div id="conteudo">
-            <div id="primario">primario</div>
-            <div id="secundario">secundario</div>
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
 
+                        <h3>Nova legislação</h3>
+                        <img class="imagem-principal" src="../imagens/taxi.jpg" width="100%">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <a href="nova-legislacao.html">Leia mais!</a>
+
+                    </div>
+                </div>
+            </div>
+            <div id="secundario">
+                <div class="caixa entrevista">
+                    <h2>Ultima Entrevista</h2>
+                    <div class="caixa-conteudo">
+
+                        <h3>Entrevista com Felipe Souza</h3>
+                        <img class="imagem-principal" src="../imagens/doutor.jpg" width="100%">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <a href="nova-legislacao.html">Leia mais!</a>
+                    </div>
+                </div>
+            </div>
             <div id="lateral">
                 <div class="caixa">
                     <h2>Entrevistas</h2>
                     <div class="caixa-conteudo">
-                        Conteúdo
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Abelardo Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">
+                                    Email:
+                                </label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
