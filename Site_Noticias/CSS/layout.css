@@ -1,13 +1,32 @@
 #conteudo{
     background: #f5f5f5;
     margin-top: 60px;
-
 }
 
-#primario {
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#tres-colunas #primario {
     width: 270px;
     float: left;
     margin:  0 0 20px 195px;
+    background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin:  0 0 20px 195px;
+    background: blue;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    float: left;
+    margin-bottom: 20px;
     background: blue;
 }
 
@@ -18,12 +37,7 @@
     margin: 0 0 20px 15px;
 }
 
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: yellow;
-}
+
 
 #container-rodape{
     background: #294c71;

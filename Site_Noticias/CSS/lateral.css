@@ -1,0 +1,21 @@
+.caixa{
+    background: #f3f3f3 url(../Imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+
+}
+
+h2{
+    font-size: 1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    margin: 3px;
+    
+}
