@@ -1,0 +1,18 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica,"Trebuchet MS", sans-serif;
+    background: #ffffff url(../Imagens/bg.png);
+    margin: 15PX;
+}
+
+#container{
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
