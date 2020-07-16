@@ -1,0 +1,33 @@
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+.caixa1{
+    background: url(../Imagens/imagem1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa2{
+    background: url(../Imagens/imagem2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa3{
+    background: url(../Imagens/imagem3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa4{
+    background: url(../Imagens/imagem4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
