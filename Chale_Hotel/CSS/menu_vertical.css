@@ -1,0 +1,30 @@
+#menu{
+    margin-top: 15px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.depoimento{
+    width: 226PX;
+    height: 164px;
+    float: right;
+}
+
+ul#navegacao{
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background: #fdf6be;
+}
