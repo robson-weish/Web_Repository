@@ -1,0 +1,16 @@
+section#galeria a{
+    display: block;
+    background: url(../IMG/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0px 0px 20px;
+}
+
+section#galeria img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+section#galeria{
+    padding: 0px 27px 0px 27px;
+}
