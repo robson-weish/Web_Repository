@@ -1,0 +1,9 @@
+footer{
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url(../IMG/fundo-rodape.png) no-repeat center top;
+}
+
+footer>p a{
+    padding: 2px 10px;
+}

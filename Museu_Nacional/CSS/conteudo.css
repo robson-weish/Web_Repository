@@ -1,20 +1,16 @@
-/* #principal{
-
-} */
-#conteudo{
-    width: 710px;
-    float: left;
-    background: green;
-
+#conteudo {
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
 }
 
-aside{
-    width: 350px;
-    float: right;
-    background-color: #ebe7dd;
-    padding-bottom: 30px;
+aside {
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
-
 section#visita{
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
@@ -47,4 +43,28 @@ fieldset{
 
 legend{
     display: none;
+}
+
+article#video {
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#mapa {
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#exposicoes {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+
+article#historia {
+	float: right;
+	width: 310px;
+	margin: 15px 0 0 37px;
 }
