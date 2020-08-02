@@ -1,0 +1,22 @@
+.caixa1, .caixa2{
+    height: 100%;
+    position: relative;
+}
+
+.caixa1{
+    background-color: #ffc107;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa2{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa3{
+    background-color:white;
+}
