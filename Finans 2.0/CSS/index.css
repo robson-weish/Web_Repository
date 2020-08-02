@@ -1,10 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Varta', sans-serif;
+#home{
+    background-color: #ffc107;
+    color: white;
 }
 
-body, html{
-    font: 16px "Lato", sans-serif;
-    height: 100%;
+.caixa{
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer .col-md-8 a{
+    margin: 5px 15px;
 }
