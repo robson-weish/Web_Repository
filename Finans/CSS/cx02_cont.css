@@ -1,0 +1,8 @@
+.part_sup_esq{
+    float: left;
+    width: 49%;
+}
+.part_sup_dir{
+    float: right;
+    width: 49%;
+}

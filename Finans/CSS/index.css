@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varta', sans-serif;
+}
+
+body, html{
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+}
