@@ -1,0 +1,74 @@
+body{
+    background: url(../IMG/capa.png),
+                url(../IMG/ruido.png),
+                linear-gradient(50deg, #ff4169 , #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, #home{
+    height: 100%;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.divisor{
+    width: 0.5px;
+    margin: 12px 15px;
+    background: white;
+}
+
+.capa{
+    text-align: center;
+}
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.btn-custom{
+    margin: 10px;
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo{
+    background-color: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
