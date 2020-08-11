@@ -1,0 +1,37 @@
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos .albuns{
+    padding: 10px 0px;
+}
+
+#servicos h2, h3{
+    color: #7c25f8;
+}
+
+/* Parte inferior */
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos p{
+    color: white;
+}
+
+.rotacionar{ 
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
