@@ -35,3 +35,37 @@
     transform: rotate(30deg);
     padding-left: 80px;
 }
+
+/* RODAPE */
+
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0px 7px;
+}
